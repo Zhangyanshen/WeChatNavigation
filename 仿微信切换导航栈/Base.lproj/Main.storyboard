@@ -126,7 +126,7 @@
         <scene sceneID="BYh-nB-wrQ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="N0k-gP-yvg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="联系人" id="FuM-zv-fyX"/>
+                    <tabBarItem key="tabBarItem" title="联系人" image="tabbar_contacts" selectedImage="tabbar_contactsHL" id="FuM-zv-fyX"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Nc8-fm-1u3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -145,7 +145,7 @@
         <scene sceneID="CCX-Ea-e1k">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gha-KU-O7D" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="微信" id="Htr-dX-6QU"/>
+                    <tabBarItem key="tabBarItem" title="微信" image="tabbar_mainframe" selectedImage="tabbar_mainframeHL" id="Htr-dX-6QU"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0iP-Bw-0Eh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -161,4 +161,10 @@
             <point key="canvasLocation" x="244" y="-626.53673163418296"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tabbar_contacts" width="27" height="23"/>
+        <image name="tabbar_contactsHL" width="27" height="23"/>
+        <image name="tabbar_mainframe" width="25" height="23"/>
+        <image name="tabbar_mainframeHL" width="25" height="23"/>
+    </resources>
 </document>
